@@ -2,19 +2,17 @@
 
 int main(void){
     float n1, n2, n3, media;
-    printf("Digite o valor da base: ");
+    printf("Digite o valor da nota1: ");
     scanf("%f", &n1);
 
-    printf("Digite o valor da altura: ");
+    printf("Digite o valor da nota2: ");
     scanf("%f", &n2);    
     
-
-
-    printf("Digite o valor da altura: ");
+    printf("Digite o valor da nota3 ");
     scanf("%f", &n3);    
 
     media = (n1+n2+n3)/3;
 
-    printf("Valor da area e %.2f unidades de area\n", media);
+    printf("Sua média é %.2f\n", media);
     return 0;
 }
